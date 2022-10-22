@@ -1,0 +1,41 @@
+.intro{
+    background: url('/public/pictures/stationery.jpg') center center/cover no-repeat;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+.intro-logo{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.intro-describe{
+    margin-top: 16px;
+    font-size: 34px;
+    color: rgb(16, 3, 67);
+    padding: 16px;
+    border: 5px solid rgb(45, 1, 87);
+    border-radius: 6px;
+    text-align: right;
+    font-family: 'Almarai', sans-serif;
+}
+@media screen and (max-width: 1080px){
+    .intro-describe{
+        font-size: 32px;
+    }    
+}
+@media screen and (max-width: 867px){
+    .intro-describe{
+        font-size: 24px;
+    }    
+}
+@media screen and (max-width: 400px){
+    .intro-describe{
+        font-size: 19px;
+        width: 100%;
+    }    
+}
